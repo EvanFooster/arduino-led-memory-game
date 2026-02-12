@@ -29,6 +29,17 @@ Incorrect input resets the game and the user recieves a lose message, while succ
 - Both incorrect input and completion reset the game state.
 - User is informed of win or loss conditions through Serial output and LED flashing.
 
+## Hardware Setup
+
+![LED Memory Game Setup](docs/images/setup.jpg)
+
+- Three LEDS connected to pins 2, 3, and 4 through 220Ω current-limiting resistors to ground.
+
+## LED Mapping
+- 1 -> Yellow LED (Pin 2)
+- 2 -> Red LED (Pin 3)
+- 3 -> Blue LED (Pin 4)
+
 ## How to Run
 1. Clone this repository.
 2. Open the '.ino' file in the Arduino IDE.
